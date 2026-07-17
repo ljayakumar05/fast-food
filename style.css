@@ -1,4 +1,86 @@
 body{
-    background-color: gray;
-    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #fff8f0;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px 0 30px;
+    background-color: #111111;
+    font-size: 14px;
+}
+.nav-header h4{
+    color: #f0f0f0;
+}
+.nav-order-btn{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    color:#f0f0f0;
+    background-color: red;
+}
+
+/* navbar start */
+.navbar{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img p{
+    margin: 29px 0 22px 37px;
+    font-weight: 600;
+}
+.nav-list ul {
+    display: flex;
+    justify-content: Space-between;
+}
+.nav-list ul li{
+    list-style: none;
+    padding: 10px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.nav-btn{
+    margin: 15px 60px 20px 0;
+}
+.nav-btn button{
+    padding: 15px;
+    background-color: red;
+    color: #f0f0f0;
+    border-radius: 10px;
+    border: none;
+}
+/* first-section start */
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0 30px;
+}
+.first-section-text h1{
+    margin-top: 80px;
+    font-size: 64px;
+}
+.section-text-color{
+    color: red;
+}
+.first-section-text p{
+    font-size: 24px;
+    width: 420px;
+    margin-top: -20px;
+    color: gray;
+    font-weight: 400;
+    line-height: 30px;
+}
+.fast-food-img{
+    margin: 85px 40px 25px 20px;
+    border-radius: 50%;
 }
