@@ -62,7 +62,7 @@ body{
 .first-section{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 70vh;
     margin: 0 30px;
 }
 .first-section-text h1{
@@ -80,7 +80,52 @@ body{
     font-weight: 400;
     line-height: 30px;
 }
+.btn-one{
+    margin: 10px;
+    padding: 20px;
+    width: 162px;
+    background-color: red;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn-two{
+    margin: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.rating{
+    display: flex;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.rating h3{
+    font-size: 34px;
+    margin-top: 10px;
+}
+.rating p{
+    font-size: 12px;
+    width: 120px;
+    margin: 51px 17px 20px -93px;
+    padding: 0 40px;
+}
 .fast-food-img{
     margin: 85px 40px 25px 20px;
     border-radius: 50%;
+}
+.slider-text{
+    background-color: red;
+    padding: 10px;
+}
+.slider-text ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.slider-text ul li{
+    list-style: none;
+    padding: 10px;
 }
